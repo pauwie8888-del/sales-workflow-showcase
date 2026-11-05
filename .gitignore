@@ -1,0 +1,13 @@
+# Public documentation only. Keep implementation and private account files elsewhere.
+.env*
+*.json
+*.js
+*.cjs
+*.mjs
+*.py
+*.sql
+*.log
+*.sqlite*
+*.zip
+private-review/
+node_modules/
