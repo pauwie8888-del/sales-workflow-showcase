@@ -14,7 +14,7 @@ An intended sales or business-development operator. Actual users and adoption ar
 
 The inspected reference connects audience input, AI-assisted search preparation, profile retrieval, message drafting, spreadsheet logging and a handoff to an external outreach tool. This diagram describes the file structure only. No installed or executed version of this reference was found.
 
-**Outputs:** See the [illustrative example](example-output.md).
+**Intended outputs:** A candidate list and draft messages. Actual execution and output quality remain unverified.
 
 **Tools:** The located file references n8n, OpenAI, Apify, Google Sheets and PhantomBuster. Referenced tools are not evidence of working connections.
 
@@ -44,11 +44,6 @@ This is not yet a verified completed portfolio project. The file includes an ext
 ## Explore
 
 - [High-level architecture](architecture.md)
-- [Clearly labelled mock output](example-output.md)
 - [90-second demo script](demo-script.md)
-
-![Illustrative mock output](assets/mock-output.svg)
-
-The illustration above is a recreated mock visual, not a screenshot or a result measurement.
 
 [Back to portfolio](../README.md)

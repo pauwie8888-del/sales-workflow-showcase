@@ -13,4 +13,4 @@ flowchart LR
   S3 --> S4
 ```
 
-This is a conceptual view. It omits node configuration, API endpoints, prompts and implementation rules. The project README distinguishes live-tested stages from mock-tested extensions.
+This is a conceptual view. It omits node configuration, API endpoints, prompts and implementation rules. The project README distinguishes live-tested stages from extensions tested with simulated providers.

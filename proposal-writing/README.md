@@ -1,4 +1,4 @@
-# Review-First Proposal-Writing Workflow
+# Proposal-Writing Workflow
 
 Turns sales-call notes or transcripts into editable notes and a proposal draft, while keeping commercial approval with the salesperson.
 
@@ -14,7 +14,7 @@ Account executives and salespeople preparing a proposal after discovery.
 
 There are two related n8n workflows. The manual version accepts reviewed notes. The transcript version extracts fields with supporting excerpts and opens an editable review form. Reviewed inputs feed AI drafting, validation and a copied seven-slide Google Slides template. A salesperson checks the draft before sharing.
 
-**Outputs:** See the [illustrative example](example-output.md).
+**Outputs:** An editable notes review and a proposal presentation draft for salesperson review.
 
 **Tools:** n8n, OpenAI, Google Drive and Google Slides, with the existing n8n file-extraction tools.
 
@@ -44,11 +44,6 @@ AI summaries can omit scope exclusions; compare the deck with the reviewed notes
 ## Explore
 
 - [High-level architecture](architecture.md)
-- [Clearly labelled mock output](example-output.md)
 - [90-second demo script](demo-script.md)
-
-![Illustrative mock output](assets/mock-output.svg)
-
-The illustration above is a recreated mock visual, not a screenshot or a result measurement.
 
 [Back to portfolio](../README.md)

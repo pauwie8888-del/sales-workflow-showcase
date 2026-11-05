@@ -14,7 +14,7 @@ Salespeople and business-development teams preparing account research.
 
 A manually started n8n workflow researches the seller and target companies, checks quoted source passages and dates, then assesses product relevance and existing alternatives. Results include questions, holds and coverage limitations. Google Sheets provides a review destination; Supabase stores research history.
 
-**Outputs:** See the [illustrative example](example-output.md).
+**Outputs:** An account research report with source-backed findings, commercial hypotheses, counterevidence, unknowns and recommended next actions.
 
 **Tools:** n8n, Apify, OpenAI, Google Sheets and Supabase. Earlier project variants also explored other discovery providers; those variants are not treated as connected features here.
 
@@ -33,7 +33,7 @@ Makes the reasoning behind an account recommendation reviewable. It is designed 
 
 ## Current status and evidence
 
-A bounded account-research flow has live integration evidence. The newer adaptive follow-up extension is locally mock-tested; its live research quality remains unverified.
+A bounded account-research flow has live integration evidence. The newer adaptive follow-up extension is tested locally with simulated providers; its live research quality remains unverified.
 
 On 30 October 2026, a live five-target run completed research and output delivery using the external providers. On 4 November, a cached-evidence comparison made 14 real inference calls across two runs and delivered both reports to Sheets. The newer adaptive extension passed 72 account tests and 693 regression tests, plus an actual local n8n execution using simulated providers. Those simulated readbacks do not prove live delivery of the extension.
 
@@ -44,11 +44,6 @@ The small live comparison found more specific assessments for two accounts, mixe
 ## Explore
 
 - [High-level architecture](architecture.md)
-- [Clearly labelled mock output](example-output.md)
 - [90-second demo script](demo-script.md)
-
-![Illustrative mock output](assets/mock-output.svg)
-
-The illustration above is a recreated mock visual, not a screenshot or a result measurement.
 
 [Back to portfolio](../README.md)
